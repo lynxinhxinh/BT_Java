@@ -8,6 +8,10 @@ public class Company {
         System.out.println(person.getName());
         System.out.println(person.getAge());
         System.out.println(person.getGender());
+        //System.out.println(person.getAddress()); --> Error: java: getAddress() has protected access in JavaOOP.BT_JavaOOP2.Person.Person
+        //System.out.println(person.getPhone()); --> Error: java: getPhone() has protected access in JavaOOP.BT_JavaOOP2.Person.Person
     }
 
 }
+
+

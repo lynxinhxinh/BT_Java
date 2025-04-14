@@ -17,10 +17,9 @@ public class Login extends BaseTest {
         Constants.report= true;
         Constants.headless=false;
 
-        BaseTest baseTest = new BaseTest();
-        baseTest.createDriver();
         Login login = new Login();
+        login.createDriver();
         login.login();
-        baseTest.closeDriver();
+        login.closeDriver();
     }
 }

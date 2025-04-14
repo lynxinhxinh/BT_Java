@@ -6,10 +6,12 @@ public class For {
         int y=0;
         int a[] = new int[26];
 
-        for (int i = 0; i<=50; i+=2){
-            System.out.println(i);
-            a[y]=i;
-            y++;
+        for (int i = 0; i<=50; i++){
+            if (i % 2 == 0) {
+                System.out.println(i);
+                a[y]=i;
+                y++;
+            }
         }
         System.out.println("----");
         System.out.println("So phan tu trong mang: "+y);
